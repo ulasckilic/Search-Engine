@@ -1,5 +1,3 @@
-# Web-Crawler
-
 # Search Engine from Scratch (Python)
 
 A web crawler, inverted index and PageRank ranking implemented without
