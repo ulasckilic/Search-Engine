@@ -5,7 +5,7 @@
 A web crawler, inverted index and PageRank ranking implemented without
 external libraries (no BeautifulSoup, no NetworkX).
 
-- Crawler: BFS over the seed page, HTML stripped manually via string operations
+- Crawler: DFS over the seed page, HTML stripped manually via string operations
 - Index: dictionary-based inverted index, duplicate-free posting lists
 - Normalization: punctuation stripping (noPunct) and case folding
 - Ranking: iterative PageRank, damping factor 0.8, 10 iterations
